@@ -1,0 +1,11 @@
+{
+  "name": "firstapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Rob30Garcia/firstapi.git",
+  "author": "Robert Garcia <rgs2@icomp.ufam.edu.br>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
