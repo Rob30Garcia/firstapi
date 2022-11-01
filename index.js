@@ -22,4 +22,8 @@ app.route('/').put(
   }
 );
 
+app.route('/:id').delete(
+  (req, res) => res.send(req.params.id)
+);
+
 app.listen(3000);
