@@ -9,7 +9,7 @@ app.use(express.json());
 app.route('/').get(
   (req, res) => {
     axios.get('https://api.github.com/users/Rob30Garcia')
-      .then(result => res.send(result.data))
+      .then(result => res.send(`<img src="${result.data.avatar_url}"/>`))
       .catch(err => console.error(err))
   }
 );
